@@ -1,0 +1,11 @@
+leader_traits = {
+
+	snow_warlord = {
+		random = no
+		initiative_factor = 0.5
+		army_org = 20.0
+		army_attack_factor = 0.15
+		acclimatization_cold_climate_gain_factor = 0.75
+		army_speed_factor = -0.20
+	}
+}

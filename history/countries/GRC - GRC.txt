@@ -1,0 +1,27 @@
+capital = 144
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 2
+	fascism = 15
+	communism = 8
+	neutrality = 75
+}
+
+add_ideas = {
+	GRC_pmc
+	GRC_fear_of_dying
+	GRC_future_knowledge
+}
+
+recruit_character = GRC_Master
+promote_character = GRC_Master
+recruit_character = GRC_Queen
+recruit_character = GRC_Student
+recruit_character = GRC_Goodguy

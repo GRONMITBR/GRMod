@@ -1,0 +1,21 @@
+bookmarks = {
+	bookmark = {
+		name = "GRC_BOOKMARK_NAME"
+		desc = "GRC_BOOKMARK_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GRC"
+		default = yes
+		favorite = yes
+
+		"GRC" = {
+			history = "GRC_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				GRC_pmc
+				GRC_fear_of_dying
+				GRC_future_knowledge
+			}
+		}
+	}
+}

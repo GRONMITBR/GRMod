@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+		# Ideia 1
+		GRC_pmc = {
+			picture = GFX_idea_GRC_pmc
+
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_org = 0.5
+				army_speed_factor = 0.25
+				breakthrough_factor = 0.25
+				dig_in_speed_factor = -0.5
+			}
+		}
+
+		# Ideia 2
+		GRC_fear_of_dying = {
+			picture = GFX_idea_GRC_fear_of_dying
+
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+				planning_speed = -0.45
+				recon_factor = -0.2
+				army_speed_factor = -0.65
+				land_reinforce_rate = -0.35
+			}
+		}
+
+		# Ideia 3
+		GRC_future_knowledge = {
+			picture = GFX_idea_GRC_future_knowledge
+
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+				max_planning = 0.5
+				invasion_preparation = 0.5
+			}
+		}
+	}
+}

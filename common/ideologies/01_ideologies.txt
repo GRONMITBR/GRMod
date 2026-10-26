@@ -1,0 +1,102 @@
+ideologies = {
+
+    # Nome do grupo da ideologia principal
+    monarchism = {
+        
+        types = {
+            # Subideologias
+            queenism = {
+                can_be_randomly_selected = no
+            }
+        }
+        
+        # Cor da ideologia no gráfico de pizza (Carmim / Vermelho Carmesim)
+        color = { 220 20 60 }
+        
+        # Modificadores globais aplicados ao país com esta ideologia
+        country_modifiers = {
+            stability_factor = 0.05
+            political_power_gain = 0.10   # Ajustado para +10% (altere para 1.0 se quiser +1/dia)
+        }
+        
+        # Regras de governo
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+        
+        # Configurações de Facção e Tensão Mundial
+        war_impact_on_world_tension = 0.1
+        faction_impact_on_world_tension = 0.1
+        
+        # Facções permitidas
+        can_host_garrison = yes
+    }
+
+    fascism = {
+        types = {
+            Warlordism = {
+                can_be_randomly_selected = no
+            }
+        }
+
+        # Cor Roxa / Violeta
+        color = { 102 51 153 }
+
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+
+        can_collaborate = yes
+
+        # Linhas obrigatórias de Tensão Mundial adicionadas
+        war_impact_on_world_tension = 0.5
+        faction_impact_on_world_tension = 0.1
+
+        # Corrigido de 'modifiers' para 'country_modifiers'
+        country_modifiers = {
+            justify_war_goal_when_in_major_war_time = -1.0
+            civilian_intel_to_others = -15.0
+            army_intel_to_others = -10.0
+            navy_intel_to_others = -10.0
+            airforce_intel_to_others = -10.0
+            hidden_modifier = { join_faction_tension = -0.1 }
+            embargo_cost_factor = 0.1
+            lend_lease_tension = 0.0
+        }
+    }
+
+    communism = {
+        types = {
+            progressivism = {
+                can_be_randomly_selected = no
+            }
+        }
+
+        color = { 124 252 0 }
+
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+        }
+        war_impact_on_world_tension = 0.5
+        faction_impact_on_world_tension = 0.1
+
+        # Corrigido de 'modifiers' para 'country_modifiers'
+        country_modifiers = {
+            justify_war_goal_when_in_major_war_time = -1.0
+            civilian_intel_to_others = -15.0
+            army_intel_to_others = -10.0
+            navy_intel_to_others = -10.0
+            airforce_intel_to_others = -10.0
+            hidden_modifier = { join_faction_tension = -0.1 }
+            embargo_cost_factor = 0.1
+            lend_lease_tension = 0.0
+        }
+    }
+
+}

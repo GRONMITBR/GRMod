@@ -1,0 +1,58 @@
+characters = {
+	GRC_Master = {
+		name = GRC_Master
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRC/portrait_GRC_Master.dds"
+			}
+		}
+		country_leader = {
+			ideology = Warlordism
+			traits = { snow_warlord }
+			expire = "2008.7.11"
+		}
+	}
+
+	GRC_Queen = {
+		name = GRC_Queen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRC/portrait_GRC_Queen.dds"
+			}
+		}
+		country_leader = {
+			ideology = queenism
+			traits = { GER_supreme_leader }
+			expire = "2006.1.1"
+		}
+	}
+
+	GRC_Student = {
+		name = GRC_Student
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRC/portrait_GRC_Student.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = { GER_supreme_leader }
+			expire = "2008.7.11"
+		}
+	}
+
+	GRC_Goodguy = {
+		name = GRC_Goodguy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GRC/portrait_GRC_Goodguy.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { GER_supreme_leader }
+			expire = "2008.7.11"
+		}
+	}
+
+}
